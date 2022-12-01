@@ -2,6 +2,7 @@ import { BoxButton, BoxInfo, BoxLogin, BoxOpcoes, ButtonGitHub, ButtonGoogle, Bu
 import lateral from "../../assets/doog.jpg";
 import btnGoogle from "../../assets/iconGitHub.svg";
 import btnGitHub from "../../assets/iconGoogle.svg";
+import { Link } from "react-router-dom";
 
 export const CaixaLogin: React.FC = () => {
   return (
@@ -15,7 +16,8 @@ export const CaixaLogin: React.FC = () => {
           <Campo type="password" placeholder=" digite sua senha"/>
 
           <BoxLogin>
-            <TextoRegisto>Criar uma conta</TextoRegisto>
+            <Link to="/cadastrar">Criar uma conta</Link>
+            {/* <TextoRegisto>Criar uma conta</TextoRegisto> */}
             <ButtonLogin>Entrar</ButtonLogin>
           </BoxLogin>
 

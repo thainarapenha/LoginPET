@@ -1,0 +1,1 @@
+export { CaixaRegistro } from "./CaixaRegistro";

@@ -1,0 +1,1 @@
+export { InputSenha } from "./InputSenha";
